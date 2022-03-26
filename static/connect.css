@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap%27%27');
+body{
+  text-align: center;
+font-family: 'Questrial', sans-serif;
+background-color:black;
+color: black;
+}
+table{
+  margin: 6% auto;
+
+}
+
+td{
+  padding: 1% !important;
+  border: 1.5px solid black;
+  font-size: 130%;
+  font-weight: bolder;
+}
+th{
+  font-size: 150%;
+  font-weight: bolder;
+    border: 1.5px solid black;
+    border-bottom:  4px solid black;
+    padding: 2% !important;
+}
+.nav-items{
+  position: absolute;
+  right: 5%;
+}
+table{
+text-align: center;
+background-color: #dbd7d2;
+}
+.navsudo
+{
+  padding: 1.5%;
+  font-size: 170%;
+}
+.nav-link{
+  font-size: 100%;
+}
+nav{
+  border-bottom: 1px solid white;
+}
+.navbar-brand
+{
+  font-size: 130%;
+}
+h2{
+  margin-top: 3%;
+color: #dbd7d2;
+}
+img{
+  margin-left: 7px;
+  margin-bottom: 5px;
+}
+form i {
+      margin-left: -30px;
+      cursor: pointer;
+      color: #dbd7d2;
+        }
+.password{
+  margin-top: 2%;
+}
+#enterpassword
+{
+  color: #dbd7d2;
+  background-color: black;
+  outline-width: 0;
+width: 20%;
+margin: 0 auto;
+padding: 0.7%;
+}
+.Connect{
+  width: 150px;
+  margin: 1%;
+  height: 50px;
+}

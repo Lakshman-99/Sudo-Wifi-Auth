@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>net_view</title>
+
+    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="static/net_view.js?version={{version}}"></script>
+
+</head>
+<body>
+    <div class="ui container" style="text-align: center; margin-top: 5%">
+        <h1 class="ui header">Network Hosts</h1>
+        <table id="net_view_table" class="ui selectable celled table unstackable" style="">
+            <thead>
+                <tr>
+                  <th>Mac Address</th>
+                  <th>Vendor</th>
+                  <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="net_view_body">
+            </tbody>
+        </table>
+
+        <button id="scan_button" class="ui button">Scan</button>
+
+    </div>
+
+</body>
+</html>

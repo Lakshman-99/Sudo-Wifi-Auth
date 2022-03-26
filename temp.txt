@@ -1,0 +1,446 @@
+<!--
+  $( "#yes1" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes1').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no1" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no1').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes2" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes2').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no2" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no2').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes3" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes3').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no3" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no3').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes4" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes4').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no4" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no4').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes5" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes5').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no5" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no5').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes6" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes6').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no6" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no6').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes7" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes7').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no7" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no7').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes8" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes8').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no8" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no8').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes9" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes9').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no9" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no9').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes10" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes10').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no10" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no10').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes11" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes11').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no11" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no11').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes12" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes12').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no12" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no12').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes13" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes13').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no13" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no13').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes14" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes14').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no14" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no14').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#yes15" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"yes", "value": $('#yes15').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+  $( "#no15" ).click(function() {
+    alert("The paragraph was clicked.");
+    $.ajax({
+      url:"/usersel",
+      type:"POST",
+      data:{"data":"no", "value":$('#no15').val() },
+      success:function(res){
+        console.log(res);
+      }
+    });
+  });
+-->
+==========================================================================================+++++>
+$( "#d1" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value": $('#d1').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d2" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value":$('#d2').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d3" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value": $('#d3').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d4" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value":$('#d4').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d5" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value": $('#d5').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d6" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value":$('#d6').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d7" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value": $('#d7').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d8" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value":$('#d8').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d9" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value": $('#d9').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+$( "#d10" ).click(function() {
+  alert("The paragraph was clicked.");
+  $.ajax({
+    url:"/deauth",
+    type:"POST",
+    data:{"data":"deauth", "value":$('#d10').val() },
+    success:function(res){
+      console.log(res);
+    }
+  });
+});
+
+
+'<button class="btn btn-dark btn-lg yesbutton" type="submit" name="button" value="'+ value[0] + "=" + value[1] + "=" +value[2] + '">Allow</button>'
