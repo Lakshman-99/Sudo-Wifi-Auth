@@ -1,51 +1,41 @@
-DESCRIPTION:
+# Sudo Wifi Authenticator
 
-This is an application which tackles the anonymous users in the domestic WiFi. This is a Linux based application.
+Enhance the security of your domestic WiFi network with the "Sudo Wifi Authenticator" – an innovative Linux-based application utilizing ethical hacking tools. Prevent man-in-the-middle attacks and ensure complete control over network access.
 
-PREREQUISITES:
+## Problem
 
-->Wi-fi router
+Anonymous users in domestic WiFi networks pose a risk, leaving them susceptible to man-in-the-middle attacks.
 
-->Wi-fi adapter which supports monitor mode
+## Proposed Solution
 
-->Computer/Laptop
+Developed the "Sudo Wifi Authenticator" application, leveraging pycrack-ng, an ethical hacking tool. Empower super users to receive notifications of new connections, enabling them to approve or deny access for fortified security.
 
-HOW IT WILL HELP ?
+## Features and Benefits
 
-This is an application which prevents the domestic WiFI from man in the middle (MITM) attacks. Whenever a hacker tries to connect to the domestic WiFi , The super user (or the already connected user) gets a notification from this application. If you find the newly entering user anonymous or not genuine you can deny the connection and block that user. If you find the user genuine or trustworthy you can accept the user. This gives a total security to the domestic WiFi.
+- Safeguard domestic WiFi against man-in-the-middle attacks.
+- Validate users through connection approval or denial.
+- Control network access to prevent unauthorized users.
+- Utilize pycrack-ng for ethical hacking, ensuring network integrity.
+- Front-end developed with HTML, CSS, and JavaScript.
+- Back-end powered by Python and Flask.
+- Execution requires Kali Linux OS or Air crack-ng tool.
 
-HOW IT WORKS:
+## Getting Started
 
-Firstly the program asks for interface(default:wlan0). Then you have to select the wifi available near you. That's it, now the program completely monitor the selected network. Whenever someone connects your network, you are notified with their MAC address, you allow or deny(1/0). If you allow he continues to stay in the network, else you deny, he's blocked(deauthenticated) from that network. When you DENY someone, you can conclude that someone hacked your wifi password and its time to set a new strong password. This offers a complete security against MITM attacks.
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the application using provided scripts.
 
-INSTALLATION:
+## Usage
 
-Go to the github repository and download the zip file or extract the file contents using clone link.Then directly run the software(SudoAuth.py) on kali linux OS.
+- Specify the interface (default: wlan0) and select the WiFi network to monitor.
+- Monitor the selected network and receive notifications on new connections.
+- Approve or deny access to users for enhanced security.
 
-DEPENDENCIES:
+## Contribution
 
-->This software runs on Kali Linux OS.
+Contributions are welcome! Feel free to open issues or submit pull requests for improvements or new features.
 
-->Air crack -ng tool is required for this software to run on other Linux operating systems.
+## License
 
-->Make sure you have following python libraries such as subprocess,numpy,pandas,os,time etc.
-
-LANGUAGES USED:
-
-->Front end - Python (Tkinter)
-
-->Back end – Python 3.8
-
-FUTURE PLANS ON THIS PROJECT:
-
-The team code sploit is trying to connect this working application in a GUI based application and will be released in later versions of the application. Next we try to implement this in every household which gives the security over the WiFi. We're working on implementing this software in Windows os and Mac os.
-
-TECHNOLOGIES USED:
-
-->Ethical hacking
-
-DEVELOPED BY:
-
-TEAM : CODE SPLOIT
-
-S.Lakshman - slakshman664@gmail.com M.Kartik - muralikartik01@gmail.com B.K.Nandha Kumar - awesomenandha@gmail.com S.Shrinath - shrinathsrinivasan@gmail.com
+This project is licensed under the [MIT License](LICENSE).
